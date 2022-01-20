@@ -6,9 +6,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData(primaryColor: Colors.purple[100]),
+        theme: ThemeData(
+          brightness: Brightness.dark,
+        ),
         home: Scaffold(
-          appBar: AppBar(title: Text("WordPair")),
+          appBar: AppBar(
+            title: const Text("WordPair"),
+            backgroundColor: Colors.amberAccent[400],
+          ),
+          body: const Center(
+            child: Text('Hello World'),
+          ),
         ));
   }
 }
