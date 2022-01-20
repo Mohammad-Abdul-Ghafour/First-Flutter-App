@@ -1,16 +1,44 @@
-# helloworld
+# Flutter Setup & Notes
 
-A new Flutter project.
+## 1. Download SDK
 
-## Getting Started
+Download Flutter SDK, extract the "Flutter" folder and put somewhere on your machine
+[https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
 
-This project is a starting point for a Flutter application.
+## 2. Add path
 
-A few resources to get you started if this is your first Flutter project:
+Add path to your .profile **`extends PATH="$PATH:location/flutter/bin"`**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 3. Check dependencies
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter doctor
+```
+
+## 4. Install Android Studio
+
+[https://developer.android.com/studio](https://developer.android.com/studio)
+
+## 5. Install Flutter plugin
+
+from **`Android Studio`** plugin install **`Flutter`**
+
+## 6. Install Android SDK Command-line
+
+from **`Android Studio`** go to **`SDK Manager`** then **`SDK Tool`** then select **`Android SDK Command-line`** and apply it.
+
+## 7. Create Virtual Device from AVD Manager
+
+from **`Android Studio`** go to **`AVD Manager`** then Create your virtual device.
+
+## 8. Install VSCode Flutter extension
+
+## 9. Create flutter app
+
+```
+flutter create my_app
+```
+
+## 10. Run Debugger in VSCode
+
+You should now be setup to start editing the lib/main.dart file and build your app.
